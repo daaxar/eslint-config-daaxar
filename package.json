@@ -1,0 +1,34 @@
+{
+    "name": "eslint-config-daaxar",
+    "version": "0.1.0",
+    "description": "Yet another eslint config",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "node postInstall.js && cd ../.. && npx husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daaxar/eslint-config-daaxar.git"
+    },
+    "keywords": [
+        "eslint",
+        "prettier",
+        "config"
+    ],
+    "author": "https://github.com/daaxar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/daaxar/eslint-config-daaxar/issues"
+    },
+    "homepage": "https://github.com/daaxar/eslint-config-daaxar#readme",
+    "dependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.2",
+        "lint-staged": "^11.1.2",
+        "prettier": "^2.4.0"
+    }
+}
